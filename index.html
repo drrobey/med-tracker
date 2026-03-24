@@ -1263,13 +1263,19 @@
 
               // Use Canvas environment config, or fallback to manual config for GitHub Pages
               const firebaseConfig = typeof __firebase_config !== 'undefined' ? JSON.parse(__firebase_config) : {
-                apiKey: "AIzaSyAxBM0MKvhFYBErsWw10pVNLLJNB3DQiYg",
+                
+                // ==========================================================
+                // --- PASTE YOUR FIREBASE KEYS HERE ---
+                // ==========================================================
+                apiKey: "AIzaSyCIxW7cbHFPUxu-S6Nz1XD7ddH0tq5Ooqg",
                 authDomain: "med-tracker-d9850.firebaseapp.com",
                 projectId: "med-tracker-d9850",
                 storageBucket: "med-tracker-d9850.firebasestorage.app",
                 messagingSenderId: "333307897355",
                 appId: "1:333307897355:web:bd31776e5392f9ac06c90e",
                 measurementId: "G-YFKS009S18"
+                // ==========================================================
+
               };
 
               const app = initializeApp(firebaseConfig);
